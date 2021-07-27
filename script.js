@@ -42,10 +42,10 @@ class Calculator {
       case '-':
         computation = prev - current
         break
-      case '*':
+      case 'X':
         computation = prev * current
         break
-      case 'รท':
+      case '/':
         computation = prev / current
         break
       default:
